@@ -5,6 +5,8 @@ Displays the price of an Ethereum ERC-20 token in USD in the username of a Disco
 ![The bot online in a server](https://i.imgur.com/GTjVSKt.png)
 ![The bot's price command response](https://i.imgur.com/mxWhPYM.png)
 
+You can test out the bot for yourself here: [discord.gg/rJQTV6gqcU](https://discord.gg/rJQTV6gqcU)
+
 # Usage
 
 1. Create your bot application in the [Discord Developer Portal](https://discord.com/developers/applications).

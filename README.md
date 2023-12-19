@@ -9,7 +9,7 @@ Displays the price of an Ethereum ERC-20 token in USD in the username of a Disco
 
 1. Create your bot application in the [Discord Developer Portal](https://discord.com/developers/applications).
 
-2. Add the bot to your discord server using the URL generator in the [Discord Developer Portal](https://discord.com/developers/applications).
+2. Add the bot to your discord server using the URL generator in the [Discord Developer Portal](https://discord.com/developers/applications). It only needs the `bot` scope and the `Send Messages` permission.
 
 3. Copy the .env.example file.
 

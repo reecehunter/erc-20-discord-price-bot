@@ -7,27 +7,42 @@ Displays the price of an Ethereum ERC-20 token in USD in the username of a Disco
 
 # Usage
 
-Create your bot application in the [Discord Developer Portal](https://discord.com/developers/applications).
+1. Create your bot application in the [Discord Developer Portal](https://discord.com/developers/applications).
 
-Add the bot to your discord server using the URL generator in the [Discord Developer Portal](https://discord.com/developers/applications).
+2. Add the bot to your discord server using the URL generator in the [Discord Developer Portal](https://discord.com/developers/applications).
 
-Copy the .env.example file.
-`cp .env.example .env`
+3. Copy the .env.example file.
 
-Fill in all the variables in your new `.env`.
-All data needed can be found in the [Discord Developer Portal](https://discord.com/developers/applications), [Moralis account settings](https://admin.moralis.io/settings), and your own brain.
+```bash
+cp .env.example .env
+```
 
-Install dependencies
-`npm install`
+4. Fill in all the variables in your new `.env`.
+   All data needed can be found in the [Discord Developer Portal](https://discord.com/developers/applications), [Moralis account settings](https://admin.moralis.io/settings), and your own brain.
 
-Deploy the command
-`npm run deploy-command`
+5. Install dependencies
 
-Build the project
-`npm run build`
+```bash
+npm install
+```
 
-Start it up
-`npm run start`
+6. Deploy the command
+
+```bash
+npm run deploy-command
+```
+
+7. Build the project
+
+```bash
+npm run build
+```
+
+8. Start it up
+
+```bash
+npm run start
+```
 
 Your bot is now running!
 

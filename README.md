@@ -28,16 +28,43 @@ cp .env.example .env
 5. Fill in all the variables in your new `.env`.
    All data needed can be found in the [Discord Developer Portal](https://discord.com/developers/applications), [Moralis account settings](https://admin.moralis.io/settings), and your own brain.
 
+```bash
+# The secret token for your Discord bot
+DISCORD_BOT_TOKEN=
+# The client ID of your Discord bot
+DISCORD_CLIENT_ID=
+# The ID of the server you put the bot in
+DISCORD_GUILD_ID=
+
+# The color you want the price command embed to have
+EMBED_COLOR=15158332
+
+# Moralis API key
+# (Free API, just sign up for Moralis)
+MORALIS_API_KEY=
+
+# Name of the token to be displayed on the bot
+TOKEN_NAME=$APE
+# The smart contract address of the token
+TOKEN_ADDRESS=0x4d224452801aced8b2f0aebe155379bb5d594381
+# The chain the token is on
+TOKEN_CHAIN=0x1
+
+# How often the bot checks the price of the token in milliseconds
+# (Discord has a rate limit)
+UPDATE_FREQUENCY=3600000
+```
+
 6. Install dependencies
 
 ```bash
 npm install
 ```
 
-7. Deploy the command
+7. Deploy the price command
 
 ```bash
-npm run deploy-command
+npm run deploy-commands
 ```
 
 8. Build the project

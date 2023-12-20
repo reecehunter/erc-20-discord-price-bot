@@ -9,38 +9,44 @@ You can test out the bot for yourself here: [discord.gg/rJQTV6gqcU](https://disc
 
 # Usage
 
-1. Create your bot application in the [Discord Developer Portal](https://discord.com/developers/applications).
+1. Clone the repository
 
-2. Add the bot to your discord server using the URL generator in the [Discord Developer Portal](https://discord.com/developers/applications). It only needs the `bot` scope and the `Send Messages` permission.
+```bash
+git clone https://github.com/reecehunter/erc-20-discord-price-bot
+```
 
-3. Copy the .env.example file.
+2. Create your bot application in the [Discord Developer Portal](https://discord.com/developers/applications).
+
+3. Add the bot to your discord server using the URL generator in the [Discord Developer Portal](https://discord.com/developers/applications). It only needs the `bot` scope and the `Send Messages` permission.
+
+4. Copy the .env.example file.
 
 ```bash
 cp .env.example .env
 ```
 
-4. Fill in all the variables in your new `.env`.
+5. Fill in all the variables in your new `.env`.
    All data needed can be found in the [Discord Developer Portal](https://discord.com/developers/applications), [Moralis account settings](https://admin.moralis.io/settings), and your own brain.
 
-5. Install dependencies
+6. Install dependencies
 
 ```bash
 npm install
 ```
 
-6. Deploy the command
+7. Deploy the command
 
 ```bash
 npm run deploy-command
 ```
 
-7. Build the project
+8. Build the project
 
 ```bash
 npm run build
 ```
 
-8. Start it up
+9. Start it up
 
 ```bash
 npm run start

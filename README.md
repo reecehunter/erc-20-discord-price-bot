@@ -1,6 +1,6 @@
 # ERC-20 Discord Price Bot
 
-Displays the price of an Ethereum ERC-20 token in USD in the username of a Discord bot, and proves a `/price` command for members to query the current price.
+Displays the price of an Ethereum ERC-20 token in USD in the username of a Discord bot, and provides a `/price` command for members to query the current price.
 
 ![The bot online in a server](https://i.imgur.com/GTjVSKt.png)
 ![The bot's price command response](https://i.imgur.com/mxWhPYM.png)

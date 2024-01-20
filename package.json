@@ -1,0 +1,31 @@
+{
+  "name": "eth-token-price-bot",
+  "version": "1.0.0",
+  "description": "Displays the price of an Ethereum ERC-20 token in USD.",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node -r tsconfig-paths/register dist/index.js",
+    "build": "tsc",
+    "dev": "ts-node .",
+    "deploy-commands": "ts-node -r tsconfig-paths/register src/utils/deploy-commands.ts"
+  },
+  "keywords": [],
+  "author": "Reece Hunter",
+  "license": "ISC",
+  "dependencies": {
+    "@moralisweb3/common-evm-utils": "^2.23.2",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.0.0",
+    "moralis": "^2.23.2"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.3.3"
+  },
+  "_moduleAliases": {
+    "@src": "dist",
+    "@commands": "dist/commands",
+    "@utils": "dist/utils"
+  }
+}
